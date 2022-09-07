@@ -1,0 +1,33 @@
+.my-bg {
+    background-color: $bgDark;
+    width: 100%;
+  }
+  
+  h2 {
+    color: $textColorPrimary;
+  }
+  .btn-cont{
+  
+    a{
+      text-decoration: none;
+      text-align: center;
+      background-color: $primaryColor;
+      width: 200px;
+      padding: 7px 0;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: bolder;
+      }
+  }
+  .section-title{
+    top: -25px;
+    left: 0;
+    div{
+      width: fit-content;
+      background-color: $primaryColor;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: $textColorPrimary;
+      font-weight: bolder;
+    }
+  }

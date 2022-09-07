@@ -10871,3 +10871,52 @@ header input {
 header input:focus {
   outline: none;
 }
+
+.banner-main {
+  height: 43vh;
+  min-height: 400px;
+  width: 100%;
+}
+.banner-main img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.my-bg {
+  background-color: rgb(28, 28, 28);
+  width: 100%;
+}
+
+h2, .h2 {
+  color: white;
+}
+
+.btn-cont a {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(12, 124, 236);
+  width: 200px;
+  padding: 7px 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.section-title {
+  top: -25px;
+  left: 0;
+}
+.section-title div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(12, 124, 236);
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bolder;
+}
