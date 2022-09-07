@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+header{
+    padding: 10px 0;
+    ul{
+        list-style: none;
+        margin-bottom: 0;
+        padding: 0;
+        font-weight: 600;
+        li{
+            text-transform: uppercase;
+            padding-right: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    input{
+        border: none;
+        border-bottom: 2px solid $primaryColor;
+        &:focus{
+            outline: none;
+        }
+    }
+}
