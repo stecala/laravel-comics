@@ -10996,3 +10996,34 @@ h2, .h2 {
 .myheight {
   height: 450px;
 }
+
+.bg-foot {
+  background-color: #303030;
+  height: 87px;
+}
+.bg-foot .mybtn {
+  border: 2px solid rgb(12, 124, 236);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.bg-foot .mybtn:hover {
+  cursor: pointer;
+}
+.bg-foot h3, .bg-foot .h3 {
+  color: rgb(12, 124, 236);
+  margin: 0;
+}
+.bg-foot ul {
+  padding: 0;
+  list-style: none;
+}
+.bg-foot ul li {
+  margin: 10px;
+}
+.bg-foot .myimg {
+  position: absolute;
+  top: -680px;
+  right: 0;
+}
