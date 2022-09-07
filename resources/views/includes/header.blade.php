@@ -2,7 +2,9 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-2 d-flex align-items-center">
-                <img src="/assets/images/dc-logo.png" alt="Main logo DC">
+               <a href="/">
+                   <img src="/assets/images/dc-logo.png" alt="Main logo DC">
+                </a>
             </div>
             <nav class="col-8 d-flex align-items-center ">
                 <ul class="d-flex ">
@@ -19,7 +21,9 @@
                         tv
                     </li>
                     <li>
-                        games
+                        <a href="games">
+                           games
+                        </a>
                     </li>
                     <li>
                         collectibles

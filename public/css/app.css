@@ -10864,6 +10864,10 @@ header ul li {
 header ul li:hover {
   cursor: pointer;
 }
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
 header input {
   border: none;
   border-bottom: 2px solid rgb(12, 124, 236);
