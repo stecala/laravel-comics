@@ -1,0 +1,34 @@
+.footer-container {
+    width: 100%;
+    height: 450px;
+    background-image: url('/assets/images/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $textColorPrimary;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        color: grey;
+        li {
+            font-size: 0.75rem;
+    
+            a {
+                text-decoration: none;
+                color: grey;
+            }
+        }
+    }
+}
+
+.img-bg {
+    background-image: url('/assets/images/dc-logo-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.myheight{
+    height: 450px;
+}
